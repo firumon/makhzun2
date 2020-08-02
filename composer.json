@@ -1,0 +1,28 @@
+{
+    "name": "firumon/makhzun2",
+    "description": "Basic Inventory Application",
+    "type": "lumen-package",
+    "require": {
+        "laravel/lumen": "^7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Firose Hussain",
+            "email": "github@firumon.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Firumon\\Makhzun\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firumon\\Makhzun\\MakhzunServiceProvider"
+            ]
+        }
+    }
+}
